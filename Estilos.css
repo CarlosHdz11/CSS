@@ -1,0 +1,6 @@
+/*Body se refiere a todo  el documento, background a la parte que se quiere modificar y black se refiere al valor al que
+que se quiere cambiar el valor */
+body{
+    background:#000000;
+    color: #fff; /*Color de la tipografia*/
+}

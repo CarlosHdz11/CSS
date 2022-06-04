@@ -1,0 +1,44 @@
+/*body{
+    background: black;
+    /*Selectores permiten indicar el elemento el cual se va a modificar
+}*/
+
+/* *{/*selector que permite modificar todo(universal)
+    margin: 0;
+    padding: 0;
+    color: red;
+
+}*/
+
+h2,h1, h3{/*selector de etiquetas */
+
+    color: red;
+
+
+}
+
+h1{
+    font-size: 50px; /*tamaño de la fuente*/
+}
+p{
+    color: blueviolet;
+}
+
+p a{
+   /*Dentro de un parrafo todos los elementos "a"*/ 
+   color: aqua;
+   font-size: 12px;
+}
+
+p .Yellow{
+    color: blue;
+    font-size: 60px;
+
+    /*Todos los elemetos de la clase yellow que estan en un parrafo, si solo se pone .Yellow se selecionaran todas las
+    clases*/
+}
+
+a[href="https://www.google.com.sv/webhp?tab=rw"]{
+    color: red;
+    font-size: 30px;
+}

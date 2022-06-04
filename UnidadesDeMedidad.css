@@ -1,0 +1,28 @@
+/*EM Y REM se adaptan
+absolutas:cm, int
+
+*/
+
+body{
+    font-size: 20px;
+}
+
+p{
+    font-size: 1em;
+
+    /*En este caso 1em equivale a los 20px del body, poseen una realcion directa*/
+}
+div{
+    font-size: 20px;
+}
+
+div{
+    background: black;
+    color:yellow;
+    width: 50%; /*ancho de la seleccion*/
+}
+
+div p{
+    font-size: 2em;
+    /*En este caso el elemento padre mas cercano es el div de arriba con tamaño de 20px*/
+}
