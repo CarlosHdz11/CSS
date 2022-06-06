@@ -1,0 +1,15 @@
+div{
+    background: rgb(189, 33, 33);
+    width: 100%;
+}
+
+
+image{
+    width: 300px;;
+    height:auto ;
+    margin: auto;
+    display: block;
+    border-radius: 50%;/*Sirve para redondear los bordes de las imagenes*/
+    padding: 20px;
+    border: 2px solid rgb(228, 22, 22);
+}

@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background:orange;
+    color: white;
+    font-size: 30px;
+    float: left;/*Permite diseñar columnas el segunco div lo manda a la columna
+    o right donde el 1 iria a la derecha seguido del 2 hacia la izuierda*/
+
+}
+
+/*.cajapadre{
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative;
+    
+}*/
+/*.caja{
+    position: absolute; /*(tambien puede ser fijo fixed)Sirve para la ubicacion de 
+    una caja puede ser relative o absolutely */
+    top: 0px;/*Sirve para bajar*/
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+} 
+
+
+
+
+
+
+*/
+
+

@@ -1,0 +1,16 @@
+/*body{
+    color: white;
+    background:url(pantalla.jpg);
+    background-repeat: no-repeat;/*Para que el logo no se repita en toda la pagina, es decir unico, se puede agregar
+    -X O -Y para que solo se repita en esos ejes*/
+    background-attachment: scroll;/*Para atar o deslizar el fondo de panatalla
+    background-position:500px 200px; para ubicar el fondo de panatalla en un area especifica de la pagina
+
+
+
+
+}*/
+
+div{
+    background: url(pantalla.jpg);
+}

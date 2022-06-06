@@ -1,0 +1,12 @@
+/* A los elementos en linea no se les puede dar un ancho ni alto, los elemento en bloque toaman todo el espacio
+rectangular*/
+
+div{
+    width: 300px;
+    height: 120px; /*Sirve para la altura*/
+    background: red;
+    margin: 20px 50px;/*Sirve para los margenes  externos(X,y)*/
+    padding:30px;/*Sirve para los margenes internos*/
+    border: 10px solid black;/*Sirve para los bordes*/
+    display: inline-block; /*Sirve para agregar los elementos en  linea pero que sean expandibles*/
+}

@@ -1,0 +1,20 @@
+h1{
+    font-weight:normal ;
+    text-align: center;
+    background: green;
+}
+
+p{
+    color: #000, 0.5;/*Opacidad de 0.5*/
+    font-family:"arial"; /*permite cmabiar el tipo de letra*/
+    font-weight:bold ;/*Permite cambiar el ancho de letra*/
+    text-align: center;/*Permite centrar o mover a la derecha o izuierda el texto*/
+    line-height: 20px;/*Permite cambiar el ancho de la linea*/
+    text-decoration: underline;/*permite decorar el texto, como subrayar, tachar ect*/
+    text-transform: capitalize;/*Permite editar texto por ejemplo capitalize sirve
+    para que cada palabra inicie con mayuscula, uppercase, */
+    letter-spacing: 20px;/*Espaciado entre letras*/
+    word-spacing: 20px;/*Espacio entre palabras*/
+    text-shadow: 20px 20px 20px #000;/*Sirve para agregar sombras*/
+
+}
