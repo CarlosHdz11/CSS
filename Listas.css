@@ -1,0 +1,34 @@
+ul{
+    list-style-type: circle;/*Ciculo en cada iden de la lista*/
+    list-style-position: inside;/*sirve para acercar la lista al centro*/
+}
+
+ol{
+    list-style-type:upper-latin;/*Sirve para agregar texto
+    como literal A, b, c  a una lista ordenada*/
+
+}
+
+.menu{
+    width: 100%;
+    background: grey;
+    list-style:none ;/*Para quitar el estilo
+    de la lista como las letras A, b,c 
+    en columna*/
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;/*Para poner hacer bloques elementos en linea, estos no crecen
+    */
+    color: black;
+}
+.menu li a:hover{
+    background: #ccc;
+    color: #000;
+}
